@@ -56,6 +56,7 @@ public class CurrencyRateService implements ICurrencyRateService{
             dto.setRates(body.getData());     // {"TRY": .., "EUR": .., ...}
             dto.setFetchedAt(Instant.now());
             return dto;
+            
 		} catch (Exception e) {
 
 			throw new BaseException(new ErrorMessage(MessageType.CURRENCY_RATES_IS_OCCURED," "+e.getMessage()));

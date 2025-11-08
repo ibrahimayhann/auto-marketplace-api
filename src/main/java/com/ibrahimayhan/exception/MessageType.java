@@ -17,6 +17,7 @@ public enum MessageType {
 	Account_ID_IS_NOT_FIND("1012","Girilen account_id ile kayıtlı bir account bulunamadı"),
 	AMOUNT_IS_NO_ENOUGH("1014","Bakiye yetersiz"),
 	CURRENCY_RATES_IS_OCCURED("1013","Kur verisi alınamadı"),
+	CAR_IS_NOT_SALABLE("1015","Araba satılık değil"),
 
 	GENERAL_EXCEPTION("9999","Genel bir hata oluştu.");
 	
